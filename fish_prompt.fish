@@ -10,7 +10,7 @@ function fish_prompt
     set -l color_error (set_color $fish_color_error)
     set -l color_normal (set_color $fish_color_normal)
 
-    echo -sn "$ "
+    echo -sn "\$ "
 
     if test "$status_copy" -ne 0
         set color "$color_error"
